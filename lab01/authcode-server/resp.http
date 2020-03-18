@@ -1,0 +1,14 @@
+
+
+###
+
+POST  http://localhost:8080/oauth/token HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Authorization: Basic clientapp 112233
+
+code=j7wVDp&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A9001%2Fcallback&scope=read_userinfo
+
+
+###
+
+curl -X POST --user clientapp:112233 http://localhost:8080/oauth/token -H "content-type: application/x-www-form-urlencoded" -d "code=78SlNH&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A9001%2Fcallback&scope=read_userinfo"

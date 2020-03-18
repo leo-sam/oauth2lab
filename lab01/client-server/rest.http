@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:8080/oauth/token" --user clientdevops:789 -d "grant_type=client_credentials&scope=devops"
