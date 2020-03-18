@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PasswordServerApplication<password-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.spring2go.passwordserver.PasswordServerApplication",
+            "projectName": "password-server",
+            "args": ""
+        }
+    ]
+}
